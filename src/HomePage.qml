@@ -86,6 +86,11 @@ Rectangle {
                 demo: "First Model：内置的模型数据"
                 url: "qrc:/src/hello3d/FirstModel.qml"
             }
+            ListElement{
+                group: "Hellow Qt Quick 3D"
+                demo: "First Triangle：嵌入Quick2D三角"
+                url: "qrc:/src/hello3d/FirstTriangle.qml"
+            }
         }
     }
 }
