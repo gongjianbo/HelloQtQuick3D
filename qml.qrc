@@ -3,6 +3,7 @@
         <file>main.qml</file>
         <file>src/HomePage.qml</file>
         <file>src/LoaderPage.qml</file>
-        <file>src/helloqt3d/FirstWindow.qml</file>
+        <file>src/hello3d/FirstWindow.qml</file>
+        <file>src/hello3d/FirstModel.qml</file>
     </qresource>
 </RCC>

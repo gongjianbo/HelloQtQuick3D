@@ -79,7 +79,12 @@ Rectangle {
             ListElement{
                 group: "Hellow Qt Quick 3D"
                 demo: "First Window：一个简单的窗口"
-                url: "qrc:/src/helloqt3d/FirstWindow.qml"
+                url: "qrc:/src/hello3d/FirstWindow.qml"
+            }
+            ListElement{
+                group: "Hellow Qt Quick 3D"
+                demo: "First Model：内置的模型数据"
+                url: "qrc:/src/hello3d/FirstModel.qml"
             }
         }
     }
