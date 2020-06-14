@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>src/HomePage.qml</file>
+        <file>src/LoaderPage.qml</file>
+        <file>src/helloqt3d/FirstWindow.qml</file>
+    </qresource>
+</RCC>
