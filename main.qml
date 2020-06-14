@@ -3,9 +3,9 @@ import QtQuick.Window 2.15
 import "./src"
 
 //QtQuick3D时Qt5.14开始出的一个新模块
-//需要pro文件中 QT += quick3d
+//pro文件中 QT += quick3d，但貌似不是必须的
 //按照官方的说辞可以看成一个易于操作的简化版的Qt3D模块
-//我再main.cpp中设置了全局字体
+//我在main.cpp中设置了全局字体
 Window {
     visible: true
     width: 640
