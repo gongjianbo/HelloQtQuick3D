@@ -1,10 +1,12 @@
 import QtQuick 2.15
 import QtQuick3D 1.15
 
-Item{
+Item {
+    id: control
+
     //渲染3D场景的视口
     //View3D为要渲染的3D内容提供2D表面。在将3D内容显示在Qt Quick场景中之前，必须先将其展平。
-    // it must first be flattend.
+    //it must first be flattend.
     View3D {
         id: view
         anchors.fill: parent
@@ -18,12 +20,15 @@ Item{
         }
 
         //要将3D场景投影到2D视口，必须从摄像机查看场景。
-        PerspectiveCamera {
+        //正交投影：OrthographicCamera
+        //透视投影：PerspectiveCamera
+        OrthographicCamera {
             position: Qt.vector3d(0, 0, 0)
         }
     }
     Text {
         anchors.centerIn: parent
         text: "First Window"
+        color: "white"
     }
 }

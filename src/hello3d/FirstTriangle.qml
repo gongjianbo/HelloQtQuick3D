@@ -4,6 +4,8 @@ import QtQuick.Shapes 1.15
 
 //渲染3D场景的视口
 View3D {
+    id: control
+
     environment: SceneEnvironment {
         clearColor: "darkGreen"
         backgroundMode: SceneEnvironment.Color
