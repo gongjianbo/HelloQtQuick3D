@@ -8,8 +8,8 @@ import "./src"
 //我在main.cpp中设置了全局字体
 Window {
     visible: true
-    width: 640
-    height: 480
+    width: 960
+    height: 720
     title: qsTr("Hello Qt Quick 3D (by GongJianBo 1992)")
 
     HomePage {

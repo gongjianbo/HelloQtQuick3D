@@ -2,7 +2,8 @@ import QtQuick 2.15
 import QtQuick.Controls 2.15
 
 //目录页
-Rectangle {
+Item {
+    id: control
 
     //用listview来展示demo选项
     ListView {
@@ -65,12 +66,13 @@ Rectangle {
                 }
                 Text {
                     anchors.centerIn: parent
-                    text: section
+                    text: "【"+section+"】"
                 }
             }
         }
         model: ListModel {
             id: list_model
+            //"Hellow Qt Quick 3D：初相遇"
             ListElement {
                 group: "Hellow Qt Quick 3D"
                 title: "First Window：一个简单的窗口"
@@ -85,6 +87,17 @@ Rectangle {
                 group: "Hellow Qt Quick 3D"
                 title: "First Triangle：嵌入Quick2D三角"
                 url: "qrc:/src/hello3d/FirstTriangle.qml"
+            }
+            //"Qt Quick 3D Demo：示例学习"
+            ListElement {
+                group: "Qt Quick 3D Demo"
+                title: "Simple Scene：弹跳小球"
+                url: "qrc:/src/qtdemo/SimpleScene.qml"
+            }
+            ListElement {
+                group: "Qt Quick 3D Demo"
+                title: "View3D：多视口观察茶壶"
+                url: "qrc:/src/qtdemo/View3DDemo.qml"
             }
         }
     }

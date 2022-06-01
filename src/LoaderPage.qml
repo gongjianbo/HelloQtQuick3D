@@ -1,7 +1,7 @@
 import QtQuick 2.15
 
 //加载页
-Rectangle {
+Item {
     id: control
 
     property alias title: text.text

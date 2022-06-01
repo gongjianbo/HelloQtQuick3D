@@ -6,5 +6,8 @@
         <file>src/hello3d/FirstWindow.qml</file>
         <file>src/hello3d/FirstModel.qml</file>
         <file>src/hello3d/FirstTriangle.qml</file>
+        <file>src/qtdemo/SimpleScene.qml</file>
+        <file>src/qtdemo/View3DDemo.qml</file>
+        <file>model/teapot.mesh</file>
     </qresource>
 </RCC>

@@ -1,14 +1,17 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQuickWindow>
+#include <QLoggingCategory>
 #include <QFont>
 
 int main(int argc, char *argv[])
 {
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
-
+    QCoreApplication::setAttribute(Qt::AA_ShareOpenGLContexts);
     QGuiApplication app(argc, argv);
 
+    //关闭QSSG.trace_info打印
+    //QLoggingCategory::setFilterRules(QLatin1String("QSSG.trace_info=false"));
     //全局字体
     QFont font("SimSun");
     font.setPixelSize(16);
