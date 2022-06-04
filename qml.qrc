@@ -9,5 +9,8 @@
         <file>src/qtdemo/SimpleScene.qml</file>
         <file>src/qtdemo/View3DDemo.qml</file>
         <file>model/teapot.mesh</file>
+        <file>model/trefoil.mesh</file>
+        <file>model/trefoil.obj</file>
+        <file>src/hello3d/MeshModel.qml</file>
     </qresource>
 </RCC>

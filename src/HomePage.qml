@@ -80,13 +80,18 @@ Item {
             }
             ListElement {
                 group: "Hellow Qt Quick 3D"
-                title: "First Model：内置的模型数据"
+                title: "First Model：加载内置模型"
                 url: "qrc:/src/hello3d/FirstModel.qml"
             }
             ListElement {
                 group: "Hellow Qt Quick 3D"
                 title: "First Triangle：嵌入Quick2D三角"
                 url: "qrc:/src/hello3d/FirstTriangle.qml"
+            }
+            ListElement {
+                group: "Hellow Qt Quick 3D"
+                title: "Mesh Model：加载mesh模型文件"
+                url: "qrc:/src/hello3d/MeshModel.qml"
             }
             //"Qt Quick 3D Demo：示例学习"
             ListElement {
