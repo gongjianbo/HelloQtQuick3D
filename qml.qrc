@@ -12,5 +12,7 @@
         <file>model/trefoil.mesh</file>
         <file>model/trefoil.obj</file>
         <file>src/hello3d/MeshModel.qml</file>
+        <file>src/hello3d/NodeControl1.qml</file>
+        <file>src/hello3d/NodeControl2.qml</file>
     </qresource>
 </RCC>

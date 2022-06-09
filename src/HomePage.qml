@@ -93,6 +93,16 @@ Item {
                 title: "Mesh Model：加载mesh模型文件"
                 url: "qrc:/src/hello3d/MeshModel.qml"
             }
+            ListElement {
+                group: "Hellow Qt Quick 3D"
+                title: "Node Control 1：与鼠标键盘的交互"
+                url: "qrc:/src/hello3d/NodeControl1.qml"
+            }
+            ListElement {
+                group: "Hellow Qt Quick 3D"
+                title: "Node Control 2：与鼠标键盘的交互"
+                url: "qrc:/src/hello3d/NodeControl2.qml"
+            }
             //"Qt Quick 3D Demo：示例学习"
             ListElement {
                 group: "Qt Quick 3D Demo"
