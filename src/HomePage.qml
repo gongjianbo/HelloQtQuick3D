@@ -103,6 +103,11 @@ Item {
                 title: "Node Control 2：与鼠标键盘的交互"
                 url: "qrc:/src/hello3d/NodeControl2.qml"
             }
+            ListElement {
+                group: "Hellow Qt Quick 3D"
+                title: "Pick Model：物体拾取"
+                url: "qrc:/src/hello3d/PickModel.qml"
+            }
             //"Qt Quick 3D Demo：示例学习"
             ListElement {
                 group: "Qt Quick 3D Demo"

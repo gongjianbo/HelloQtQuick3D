@@ -14,5 +14,6 @@
         <file>src/hello3d/MeshModel.qml</file>
         <file>src/hello3d/NodeControl1.qml</file>
         <file>src/hello3d/NodeControl2.qml</file>
+        <file>src/hello3d/PickModel.qml</file>
     </qresource>
 </RCC>
