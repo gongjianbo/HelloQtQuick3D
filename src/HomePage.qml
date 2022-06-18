@@ -119,6 +119,11 @@ Item {
                 title: "View3D：多视口观察茶壶"
                 url: "qrc:/src/qtdemo/View3DDemo.qml"
             }
+            ListElement {
+                group: "Qt Quick 3D Demo"
+                title: "Dynamic Model Creation：动态创建模型节点"
+                url: "qrc:/src/qtdemo/DynamicModelCreation.qml"
+            }
         }
     }
 }
