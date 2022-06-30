@@ -16,5 +16,7 @@
         <file>src/hello3d/NodeControl2.qml</file>
         <file>src/hello3d/PickModel.qml</file>
         <file>src/qtdemo/DynamicModelCreation.qml</file>
+        <file>src/qtdemo/CustomMaterials.qml</file>
+        <file>img/OpenfootageNET_garage-1024.hdr</file>
     </qresource>
 </RCC>

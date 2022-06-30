@@ -124,6 +124,11 @@ Item {
                 title: "Dynamic Model Creation：动态创建模型节点"
                 url: "qrc:/src/qtdemo/DynamicModelCreation.qml"
             }
+            ListElement {
+                group: "Qt Quick 3D Demo"
+                title: "Custom Materials：自定义材质"
+                url: "qrc:/src/qtdemo/CustomMaterials.qml"
+            }
         }
     }
 }
